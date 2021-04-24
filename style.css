@@ -5,13 +5,13 @@ html{
 body {
 	margin:0;
 	min-height: 100vh;
-	font-weight: 700;
+
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Roboto Slab', serif;
-	font-size: 65px;
+	
 }
 
 
@@ -23,5 +23,17 @@ body {
 	background-color: rgba(255,255,255,0.4);
 	box-shadow: 0 10px 10px 10px;
 
+}
+
+
+#quote {
+	font-size: 45px;
+	font-weight:600: 
+}
+
+#author {
+	font-size: 35px;
+	font-style: italic;
+	font-weight:200; 
 }
 
