@@ -52,9 +52,9 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
-  margin: 4px 2px;
+  margin: 14px 22px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -81,12 +81,17 @@ button:hover {
 
 
 
+
+
+
 // Large screen styling
 
 @media only screen and (min-width: 600px) {
 
 
 body{
+	background-image: url("quotebg.jpg");
+	background-size: cover;
 	background-position: center bottom;
 }
 
@@ -125,13 +130,13 @@ button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 6px 12px;
+  padding: 16px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 600;
-  margin: 4px 2px;
+  margin: 24px 22px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
