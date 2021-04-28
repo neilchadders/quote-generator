@@ -20,8 +20,9 @@ body {
 .quote-container {
 	width: auto;
 	max-width: 500px;
+	color: white; 
 	
-	color: white;
+	
 }
 
 .quote-author{
@@ -32,13 +33,16 @@ body {
 
 #quote {
 	font-size: 23px;
-	font-weight:600: 
+	font-weight:600:
+	color: white; 
 }
 
 #author {
 	font-size: 20px;
 	font-style: italic;
 	font-weight:200; 
+	color: white; 
+	
 
 }
 
@@ -76,6 +80,5 @@ button:hover {
 
 #jcb {
 	padding-bottom: 10%;
-	padding-top: 4%;
-}
+	
 
