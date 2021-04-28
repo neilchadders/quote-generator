@@ -5,15 +5,16 @@ html{
 body {
 	margin:0;
 	min-height: 100vh;
-
+	padding-top: 0%;
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Roboto Slab', serif;
-	background-image: url("quote.jpg");
+	background-image: url("quotebg.jpg");
 	background-size: cover;
 }
+
 
 
 .quote-container {
@@ -30,7 +31,7 @@ body {
 
 
 #quote {
-	font-size: 30px;
+	font-size: 23px;
 	font-weight:600: 
 }
 
@@ -67,4 +68,14 @@ button:hover {
   color: white;
 }
 
+.jcb {
+	visibility: hidden;
+
+
+}
+
+#jcb {
+	padding-bottom: 10%;
+	padding-top: 4%;
+}
 
