@@ -11,7 +11,10 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: 'Roboto Slab', serif;
+	background-color: black;
 	background-image: url("quotebg.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
 	background-size: cover;
 }
 
@@ -89,11 +92,6 @@ button:hover {
 @media only screen and (min-width: 600px) {
 
 
-body{
-	background-image: url("quotebg.jpg");
-	background-size: cover;
-	background-position: center bottom;
-}
 
 .quote-container {
 	width: auto;
