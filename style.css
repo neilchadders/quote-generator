@@ -15,30 +15,98 @@ body {
 	background-size: cover;
 }
 
-
+//Mobile First Style
 
 .quote-container {
 	width: auto;
 	max-width: 500px;
 	color: white; 
 	
-	
 }
 
 .quote-author{
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 
 #quote {
 	font-size: 23px;
-	font-weight:600:
+	font-weight:600;
 	color: white; 
 }
 
 #author {
 	font-size: 20px;
+	font-style: italic;
+	font-weight:200; 
+	color: white; 
+}
+
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.jcb {
+	visibility: hidden;
+
+}
+
+#jcb {
+	padding-bottom: 10%;
+}
+
+
+
+// Large screen styling
+
+@media only screen and (min-width: 600px) {
+
+.quote-container {
+	width: auto;
+	max-width: 500px;
+	color: white; 
+	
+}
+
+.quote-author{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+}
+
+
+#quote {
+	font-size: 35px;
+	font-weight:600;
+	color: white; 
+}
+
+#author {
+	font-size: 30px;
 	font-style: italic;
 	font-weight:200; 
 	color: white; 
@@ -75,10 +143,10 @@ button:hover {
 .jcb {
 	visibility: hidden;
 
-
 }
 
 #jcb {
 	padding-bottom: 10%;
-	
+}
 
+}
