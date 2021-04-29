@@ -5,7 +5,7 @@ html{
 body {
 	margin:0;
 	min-height: 100vh;
-	padding-top: 0%;
+	padding-top: 10%;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -15,16 +15,22 @@ body {
 	background-image: url("quotebg.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom;
-	background-size: cover;
+	background-size: auto;
 }
 
 //Mobile First Style
+
+.width {
+	max-width: 640px;
+}
 
 .quote-container {
 	width: auto;
 	max-width: 500px;
 	color: white; 
 	
+	margin: 0 auto;
+
 }
 
 .quote-author{
@@ -37,6 +43,7 @@ body {
 	font-size: 23px;
 	font-weight:600;
 	color: white; 
+
 }
 
 #author {
@@ -82,82 +89,9 @@ button:hover {
 	padding-bottom: 10%;
 }
 
+/*For larger devices - Breakpoint is 640px/*
+
+@
 
 
 
-
-
-// Large screen styling
-
-@media only screen and (min-width: 600px) {
-
-
-
-.quote-container {
-	width: auto;
-	max-width: 400px;
-	color: white; 
-	
-}
-
-.quote-author{
-
-	color: white;
-}
-
-
-#quote {
-	font-size: 35px;
-	font-weight:600;
-	color: white; 
-	padding-left: 20px;
-	padding-right: 20px;
-
-}
-
-#author {
-	font-size: 30px;
-	font-style: italic;
-	font-weight:200; 
-	color: white; 
-	
-
-}
-
-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 26px;
-  font-weight: 600;
-  margin: 24px 22px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-button {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
-
-button:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.jcb {
-	visibility: hidden;
-
-}
-
-#jcb {
-	
-	padding-top: 3%;
-}
-
-}
